@@ -1,0 +1,50 @@
+@media only screen and (min-width: 415px) and (max-width: 768px) {
+    .left-block {
+        width: 50%;
+    }
+    main {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    .main-inner-item, 
+    .main-inner-item:nth-child(n+2) {
+        display: block;
+        flex: 0 0 48%;
+    } 
+    .main-inner-item:nth-child(n+3) {
+        display: block;
+    }
+    .grey-stripe {
+        background-color: #707070;
+        height: 25px;
+        margin-bottom: 25px;
+    }
+}
+@media only screen and (min-width: 769px) {
+    body {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    .left-block {
+        width: 50%;
+    }
+    main {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    .main-inner-item, 
+    .main-inner-item:nth-child(n+2) {
+        display: block;
+        flex: 0 0 32%;
+    } 
+    .main-inner-item:nth-child(n+3) {
+        display: block;
+    }
+    .grey-stripe {
+        background-color: #707070;
+        height: 25px;
+        margin-bottom: 25px;
+    }
+}
